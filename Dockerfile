@@ -9,5 +9,7 @@ RUN \
 	apt-get -y update && \
 	apt-get -y install python-pip python-yaml s3cmd duplicity && \
 	pip install awscli boto 
+RUN touch ~/.aws/config
+RUN touch ~/.aws/credentials
 
 USER jenkins
