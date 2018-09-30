@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:lts
 
-MAINTAINER Jamsheer Kandoth <jamsheer@yougotagift.com>
+MAINTAINER Jamsheer Kandoth <jamsheer.kandoth@gmail.com>
 
 USER root
 RUN \ 
